@@ -1,0 +1,25 @@
+# Please note that this code actually does not work
+# as it was cut to leave just simple language attributes
+
+import curses
+from curses import KEY_RIGHT, KEY_LEFT
+
+curses.initscr()
+win = curses.newwin(20, 60, 0, 0)
+
+score = 0
+
+snake = [[4,10], [4,9]]
+
+win.addch(food[0], '*')
+
+while key != 27:
+
+    if key == ord(' '):
+        key = -1
+        continue
+    else:
+        last = snake.pop()
+
+for i in range(10):
+    print("\nScore - " + str(score))

@@ -128,55 +128,28 @@ tokens { INDENT, DEDENT }
 /*
  * parser rules
  */
-
-single_input: NEWLINE | simple_stmt | compound_stmt NEWLINE;
-file_input: (NEWLINE | stmt)* EOF;
-eval_input: testlist NEWLINE* EOF;
-
-decorator: '@' dotted_name ( '(' (arglist)? ')' )? NEWLINE;
-decorators: decorator+;
-decorated: decorators (classdef | funcdef | async_funcdef);
-
-async_funcdef: ASYNC funcdef;
-funcdef: 'def' NAME parameters ('->' test)? ':' suite;
-
-parameters: '(' (typedargslist)? ')';
-typedargslist: (tfpdef ('=' test)? (',' tfpdef ('=' test)?)* (',' (
-        '*' (tfpdef)? (',' tfpdef ('=' test)?)* (',' ('**' tfpdef (',')?)?)?
-      | '**' tfpdef (',')?)?)?
-  | '*' (tfpdef)? (',' tfpdef ('=' test)?)* (',' ('**' tfpdef (',')?)?)?
-  | '**' tfpdef (',')?);
-tfpdef: NAME (':' test)?;
-varargslist: (vfpdef ('=' test)? (',' vfpdef ('=' test)?)* (',' (
-        '*' (vfpdef)? (',' vfpdef ('=' test)?)* (',' ('**' vfpdef (',')?)?)?
-      | '**' vfpdef (',')?)?)?
-  | '*' (vfpdef)? (',' vfpdef ('=' test)?)* (',' ('**' vfpdef (',')?)?)?
-  | '**' vfpdef (',')?
-);
-vfpdef: NAME;
-
-stmt: simple_stmt | compound_stmt;
-simple_stmt: small_stmt (';' small_stmt)* (';')? NEWLINE;
-small_stmt: (expr_stmt | del_stmt | pass_stmt | flow_stmt |
-             import_stmt | global_stmt | nonlocal_stmt | assert_stmt);
-expr_stmt: testlist_star_expr (annassign | augassign (yield_expr|testlist) |
-                     ('=' (yield_expr|testlist_star_expr))*);
-annassign: ':' test ('=' test)?;
-testlist_star_expr: (test|star_expr) (',' (test|star_expr))* (',')?;
-augassign: ('+=' | '-=' | '*=' | '@=' | '/=' | '%=' | '&=' | '|=' | '^=' |
-            '<<=' | '>>=' | '**=' | '//=');
-// For normal and annotated assignments, additional restrictions enforced by the interpreter
-del_stmt: 'del' exprlist;
-pass_stmt: 'pass';
-flow_stmt: break_stmt | continue_stmt | return_stmt | raise_stmt | yield_stmt;
-break_stmt: 'break';
-continue_stmt: 'continue';
-return_stmt: 'return' (testlist)?;
-yield_stmt: yield_expr;
-raise_stmt: 'raise' (test ('from' test)?)?;
-import_stmt: import_name | import_from;
+single_input: NEWLINE | simple_statement | compound_statement NEWLINE;
+file_input: (NEWLINE | statement)* EOF;
+eval_input: conditionlist NEWLINE* EOF;
+function_definition: 'def' NAME parameters ':' suite;
+parameters: '(' (parameters_definition)? ')';
+parameters_definition: (NAME ('=' condition)? (',' NAME ('=' condition)?)* (',' ('*' (NAME)? (',' NAME ('=' condition)?)* (',' ('**' NAME (',')?)?)? | '**' NAME (',')?)?)? | '*' (NAME)? (',' NAME ('=' condition)?)* (',' ('**' NAME (',')?)?)? | '**' NAME (',')?);
+statement: simple_statement | compound_statement;
+simple_statement: small_statement (';' small_statement)* (';')? NEWLINE;
+small_statement: (expression_statement | del_statement | pass_statement | flow_statement | import_statement | global_statement | nonlocal_statement | assert_statement);
+expression_statement: conditionlist_star_expression (annassign | composite_assignation (conditionlist) | ('=' (conditionlist_star_expression))*);
+annassign: ':' condition ('=' condition)?;
+conditionlist_star_expression: (condition|star_expression) (',' (condition|star_expression))* (',')?;
+composite_assignation: ('+=' | '-=' | '*=' | '@=' | '/=' | '%=' | '&=' | '|=' | '^=' | '<<=' | '>>=' | '**=' | '//=');
+del_statement: 'del' expressionlist;
+pass_statement: 'pass';
+flow_statement: break_statement | continue_statement | return_statement | raise_statement;
+break_statement: 'break';
+continue_statement: 'continue';
+return_statement: 'return' (conditionlist)?;
+raise_statement: 'raise' (condition ('from' condition)?)?;
+import_statement: import_name | import_from;
 import_name: 'import' dotted_as_names;
-// note below: the ('.' | '...') is necessary because '...' is tokenized as ELLIPSIS
 import_from: ('from' (('.' | '...')* dotted_name | ('.' | '...')+)
               'import' ('*' | '(' import_as_names ')' | import_as_names));
 import_as_name: NAME ('as' NAME)?;
@@ -184,90 +157,58 @@ dotted_as_name: dotted_name ('as' NAME)?;
 import_as_names: import_as_name (',' import_as_name)* (',')?;
 dotted_as_names: dotted_as_name (',' dotted_as_name)*;
 dotted_name: NAME ('.' NAME)*;
-global_stmt: 'global' NAME (',' NAME)*;
-nonlocal_stmt: 'nonlocal' NAME (',' NAME)*;
-assert_stmt: 'assert' test (',' test)?;
+global_statement: 'global' NAME (',' NAME)*;
+nonlocal_statement: 'nonlocal' NAME (',' NAME)*;
+assert_statement: 'assert' condition (',' condition)?;
 
-compound_stmt: if_stmt | while_stmt | for_stmt | try_stmt | with_stmt | funcdef | classdef | decorated | async_stmt;
-async_stmt: ASYNC (funcdef | with_stmt | for_stmt);
-if_stmt: 'if' test ':' suite ('elif' test ':' suite)* ('else' ':' suite)?;
-while_stmt: 'while' test ':' suite ('else' ':' suite)?;
-for_stmt: 'for' exprlist 'in' testlist ':' suite ('else' ':' suite)?;
-try_stmt: ('try' ':' suite
+compound_statement: if_statement | while_statement | for_statement | try_statement | with_statement | function_definition | class_definition;
+if_statement: 'if' condition ':' suite ('elif' condition ':' suite)* ('else' ':' suite)?;
+while_statement: 'while' condition ':' suite ('else' ':' suite)?;
+for_statement: 'for' expressionlist 'in' conditionlist ':' suite ('else' ':' suite)?;
+try_statement: ('try' ':' suite
            ((except_clause ':' suite)+
             ('else' ':' suite)?
             ('finally' ':' suite)? |
            'finally' ':' suite));
-with_stmt: 'with' with_item (',' with_item)*  ':' suite;
-with_item: test ('as' expr)?;
-// NB compile.c makes sure that the default except clause is last
-except_clause: 'except' (test ('as' NAME)?)?;
-suite: simple_stmt | NEWLINE INDENT stmt+ DEDENT;
+with_statement: 'with' with_item (',' with_item)*  ':' suite;
+with_item: condition ('as' expression)?;
+except_clause: 'except' (condition ('as' NAME)?)?;
+suite: simple_statement | NEWLINE INDENT statement+ DEDENT;
 
-test: or_test ('if' or_test 'else' test)? | lambdef;
-test_nocond: or_test | lambdef_nocond;
-lambdef: 'lambda' (varargslist)? ':' test;
-lambdef_nocond: 'lambda' (varargslist)? ':' test_nocond;
-or_test: and_test ('or' and_test)*;
-and_test: not_test ('and' not_test)*;
-not_test: 'not' not_test | comparison;
-comparison: expr (comp_op expr)*;
-// <> isn't actually a valid comparison operator in Python. It's here for the
-// sake of a __future__ import described in PEP 401 (which really works :-)
-comp_op: '<'|'>'|'=='|'>='|'<='|'<>'|'!='|'in'|'not' 'in'|'is'|'is' 'not';
-star_expr: '*' expr;
-expr: xor_expr ('|' xor_expr)*;
-xor_expr: and_expr ('^' and_expr)*;
-and_expr: shift_expr ('&' shift_expr)*;
-shift_expr: arith_expr (('<<'|'>>') arith_expr)*;
-arith_expr: term (('+'|'-') term)*;
+condition: or_condition ('if' or_condition 'else' condition)?;
+or_condition: and_condition ('or' and_condition)*;
+and_condition: not_condition ('and' not_condition)*;
+not_condition: 'not' not_condition | comparison;
+comparison: expression (comparison_operator expression)*;
+comparison_operator: '<'|'>'|'=='|'>='|'<='|'<>'|'!='|'in'|'not' 'in'|'is'|'is' 'not';
+star_expression: '*' expression;
+expression: xor_expression ('|' xor_expression)*;
+xor_expression: and_expression ('^' and_expression)*;
+and_expression: shift_expression ('&' shift_expression)*;
+shift_expression: arith_expression (('<<'|'>>') arith_expression)*;
+arith_expression: term (('+'|'-') term)*;
 term: factor (('*'|'@'|'/'|'%'|'//') factor)*;
 factor: ('+'|'-'|'~') factor | power;
-power: atom_expr ('**' factor)?;
-atom_expr: (AWAIT)? atom trailer*;
-atom: ('(' (yield_expr|testlist_comp)? ')' |
-       '[' (testlist_comp)? ']' |
-       '{' (dictorsetmaker)? '}' |
-       NAME | NUMBER | STRING+ | '...' | 'None' | 'True' | 'False');
-testlist_comp: (test|star_expr) ( comp_for | (',' (test|star_expr))* (',')? );
-trailer: '(' (arglist)? ')' | '[' subscriptlist ']' | '.' NAME;
+power: atom_expression ('**' factor)?;
+atom_expression: atom trailer*;
+atom: ('(' (conditionlist_comp)? ')' | '[' (conditionlist_comp)? ']' | '{' (dictionary_internals)? '}' | NAME | NUMBER | STRING+ | '...' | 'None' | 'True' | 'False');
+conditionlist_comp: (condition|star_expression) ( comp_for | (',' (condition|star_expression))* (',')? );
+trailer: '(' (arguments_list)? ')' | '[' subscriptlist ']' | '.' NAME;
 subscriptlist: subscript (',' subscript)* (',')?;
-subscript: test | (test)? ':' (test)? (sliceop)?;
-sliceop: ':' (test)?;
-exprlist: (expr|star_expr) (',' (expr|star_expr))* (',')?;
-testlist: test (',' test)* (',')?;
-dictorsetmaker: ( ((test ':' test | '**' expr)
-                   (comp_for | (',' (test ':' test | '**' expr))* (',')?)) |
-                  ((test | star_expr)
-                   (comp_for | (',' (test | star_expr))* (',')?)) );
-
-classdef: 'class' NAME ('(' (arglist)? ')')? ':' suite;
-
-arglist: argument (',' argument)*  (',')?;
-
-// The reason that keywords are test nodes instead of NAME is that using NAME
-// results in an ambiguity. ast.c makes sure it's a NAME.
-// "test '=' test" is really "keyword '=' test", but we have no such token.
-// These need to be in a single rule to avoid grammar that is ambiguous
-// to our LL(1) parser. Even though 'test' includes '*expr' in star_expr,
-// we explicitly match '*' here, too, to give it proper precedence.
-// Illegal combinations and orderings are blocked in ast.c:
-// multiple (test comp_for) arguments are blocked; keyword unpackings
-// that precede iterable unpackings are blocked; etc.
-argument: ( test (comp_for)? |
-            test '=' test |
-            '**' test |
-            '*' test );
-
+subscript: condition | (condition)? ':' (condition)? (sliceop)?;
+sliceop: ':' (condition)?;
+expressionlist: (expression|star_expression) (',' (expression|star_expression))* (',')?;
+conditionlist: condition (',' condition)* (',')?;
+dictionary_internals: ( ((condition ':' condition | '**' expression)
+                   (comp_for | (',' (condition ':' condition | '**' expression))* (',')?)) |
+                  ((condition | star_expression)
+                   (comp_for | (',' (condition | star_expression))* (',')?)) );
+class_definition: 'class' NAME ('(' (arguments_list)? ')')? ':' suite;
+arguments_list: argument (',' argument)*  (',')?;
+argument: ( condition (comp_for)? |  condition '=' condition | '**' condition | '*' condition );
 comp_iter: comp_for | comp_if;
-comp_for: (ASYNC)? 'for' exprlist 'in' or_test (comp_iter)?;
-comp_if: 'if' test_nocond (comp_iter)?;
-
-// not used in grammar, but may appear in "node" passed from Parser to Compiler
-encoding_decl: NAME;
-
-yield_expr: 'yield' (yield_arg)?;
-yield_arg: 'from' test | testlist;
+comp_for: 'for' expressionlist 'in' or_condition (comp_iter)?;
+comp_if: 'if' or_condition (comp_iter)?;
 
 /*
  * lexer rules

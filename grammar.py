@@ -1,3 +1,6 @@
+single_input: NEWLINE | simple_statement | compound_statement NEWLINE;
+file_input: (NEWLINE | statement)* EOF;
+eval_input: conditionlist NEWLINE* EOF;
 function_definition: 'def' NAME parameters ':' suite;
 parameters: '(' (parameters_definition)? ')';
 parameters_definition: (NAME ('=' condition)? (',' NAME ('=' condition)?)* (',' ('*' (NAME)? (',' NAME ('=' condition)?)* (',' ('**' NAME (',')?)?)? | '**' NAME (',')?)?)? | '*' (NAME)? (',' NAME ('=' condition)?)* (',' ('**' NAME (',')?)?)? | '**' NAME (',')?);

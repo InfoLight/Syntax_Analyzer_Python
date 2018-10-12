@@ -1,4 +1,4 @@
-package gen;// Generated from C:/Users/InfoLight/IdeaProjects/SyntaxAnalyzerPython/src/main/antlr4\Python3.g4 by ANTLR 4.7
+package gen;// Generated from C:/Users/InfoLight/IdeaProjects/Syntax_Analyzer_Python/src/main/antlr4\Python3.g4 by ANTLR 4.7
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
 /**
@@ -37,28 +37,7 @@ public class Python3BaseVisitor<T> extends AbstractParseTreeVisitor<T> implement
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitDecorator(Python3Parser.DecoratorContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitDecorators(Python3Parser.DecoratorsContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitDecorated(Python3Parser.DecoratedContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitFuncdef(Python3Parser.FuncdefContext ctx) { return visitChildren(ctx); }
+	@Override public T visitFunction_definition(Python3Parser.Function_definitionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -72,133 +51,112 @@ public class Python3BaseVisitor<T> extends AbstractParseTreeVisitor<T> implement
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitTypedargslist(Python3Parser.TypedargslistContext ctx) { return visitChildren(ctx); }
+	@Override public T visitParameters_definition(Python3Parser.Parameters_definitionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitTfpdef(Python3Parser.TfpdefContext ctx) { return visitChildren(ctx); }
+	@Override public T visitStatement(Python3Parser.StatementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitVarargslist(Python3Parser.VarargslistContext ctx) { return visitChildren(ctx); }
+	@Override public T visitSimple_statement(Python3Parser.Simple_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitVfpdef(Python3Parser.VfpdefContext ctx) { return visitChildren(ctx); }
+	@Override public T visitSmall_statement(Python3Parser.Small_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitStmt(Python3Parser.StmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitExpression_statement(Python3Parser.Expression_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitSimple_stmt(Python3Parser.Simple_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitAnnassign(Python3Parser.AnnassignContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitSmall_stmt(Python3Parser.Small_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitConditionlist_star_expression(Python3Parser.Conditionlist_star_expressionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitExpr_stmt(Python3Parser.Expr_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitComposite_assignation(Python3Parser.Composite_assignationContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitTestlist_star_expr(Python3Parser.Testlist_star_exprContext ctx) { return visitChildren(ctx); }
+	@Override public T visitDel_statement(Python3Parser.Del_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitAugassign(Python3Parser.AugassignContext ctx) { return visitChildren(ctx); }
+	@Override public T visitPass_statement(Python3Parser.Pass_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitDel_stmt(Python3Parser.Del_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitFlow_statement(Python3Parser.Flow_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitPass_stmt(Python3Parser.Pass_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitBreak_statement(Python3Parser.Break_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitFlow_stmt(Python3Parser.Flow_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitContinue_statement(Python3Parser.Continue_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitBreak_stmt(Python3Parser.Break_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitReturn_statement(Python3Parser.Return_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitContinue_stmt(Python3Parser.Continue_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitRaise_statement(Python3Parser.Raise_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitReturn_stmt(Python3Parser.Return_stmtContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitYield_stmt(Python3Parser.Yield_stmtContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitRaise_stmt(Python3Parser.Raise_stmtContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitImport_stmt(Python3Parser.Import_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitImport_statement(Python3Parser.Import_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -254,63 +212,63 @@ public class Python3BaseVisitor<T> extends AbstractParseTreeVisitor<T> implement
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitGlobal_stmt(Python3Parser.Global_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitGlobal_statement(Python3Parser.Global_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitNonlocal_stmt(Python3Parser.Nonlocal_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitNonlocal_statement(Python3Parser.Nonlocal_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitAssert_stmt(Python3Parser.Assert_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitAssert_statement(Python3Parser.Assert_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitCompound_stmt(Python3Parser.Compound_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitCompound_statement(Python3Parser.Compound_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitIf_stmt(Python3Parser.If_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitIf_statement(Python3Parser.If_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitWhile_stmt(Python3Parser.While_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitWhile_statement(Python3Parser.While_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitFor_stmt(Python3Parser.For_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitFor_statement(Python3Parser.For_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitTry_stmt(Python3Parser.Try_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitTry_statement(Python3Parser.Try_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitWith_stmt(Python3Parser.With_stmtContext ctx) { return visitChildren(ctx); }
+	@Override public T visitWith_statement(Python3Parser.With_statementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -338,49 +296,28 @@ public class Python3BaseVisitor<T> extends AbstractParseTreeVisitor<T> implement
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitTest(Python3Parser.TestContext ctx) { return visitChildren(ctx); }
+	@Override public T visitCondition(Python3Parser.ConditionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitTest_nocond(Python3Parser.Test_nocondContext ctx) { return visitChildren(ctx); }
+	@Override public T visitOr_condition(Python3Parser.Or_conditionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitLambdef(Python3Parser.LambdefContext ctx) { return visitChildren(ctx); }
+	@Override public T visitAnd_condition(Python3Parser.And_conditionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitLambdef_nocond(Python3Parser.Lambdef_nocondContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitOr_test(Python3Parser.Or_testContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitAnd_test(Python3Parser.And_testContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitNot_test(Python3Parser.Not_testContext ctx) { return visitChildren(ctx); }
+	@Override public T visitNot_condition(Python3Parser.Not_conditionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -394,49 +331,49 @@ public class Python3BaseVisitor<T> extends AbstractParseTreeVisitor<T> implement
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitComp_op(Python3Parser.Comp_opContext ctx) { return visitChildren(ctx); }
+	@Override public T visitComparison_operator(Python3Parser.Comparison_operatorContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitStar_expr(Python3Parser.Star_exprContext ctx) { return visitChildren(ctx); }
+	@Override public T visitStar_expression(Python3Parser.Star_expressionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitExpr(Python3Parser.ExprContext ctx) { return visitChildren(ctx); }
+	@Override public T visitExpression(Python3Parser.ExpressionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitXor_expr(Python3Parser.Xor_exprContext ctx) { return visitChildren(ctx); }
+	@Override public T visitXor_expression(Python3Parser.Xor_expressionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitAnd_expr(Python3Parser.And_exprContext ctx) { return visitChildren(ctx); }
+	@Override public T visitAnd_expression(Python3Parser.And_expressionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitShift_expr(Python3Parser.Shift_exprContext ctx) { return visitChildren(ctx); }
+	@Override public T visitShift_expression(Python3Parser.Shift_expressionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitArith_expr(Python3Parser.Arith_exprContext ctx) { return visitChildren(ctx); }
+	@Override public T visitArith_expression(Python3Parser.Arith_expressionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -464,6 +401,13 @@ public class Python3BaseVisitor<T> extends AbstractParseTreeVisitor<T> implement
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
+	@Override public T visitAtom_expression(Python3Parser.Atom_expressionContext ctx) { return visitChildren(ctx); }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation returns the result of calling
+	 * {@link #visitChildren} on {@code ctx}.</p>
+	 */
 	@Override public T visitAtom(Python3Parser.AtomContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
@@ -471,7 +415,7 @@ public class Python3BaseVisitor<T> extends AbstractParseTreeVisitor<T> implement
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitTestlist_comp(Python3Parser.Testlist_compContext ctx) { return visitChildren(ctx); }
+	@Override public T visitConditionlist_comp(Python3Parser.Conditionlist_compContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -506,35 +450,35 @@ public class Python3BaseVisitor<T> extends AbstractParseTreeVisitor<T> implement
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitExprlist(Python3Parser.ExprlistContext ctx) { return visitChildren(ctx); }
+	@Override public T visitExpressionlist(Python3Parser.ExpressionlistContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitTestlist(Python3Parser.TestlistContext ctx) { return visitChildren(ctx); }
+	@Override public T visitConditionlist(Python3Parser.ConditionlistContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitDictorsetmaker(Python3Parser.DictorsetmakerContext ctx) { return visitChildren(ctx); }
+	@Override public T visitDictionary_internals(Python3Parser.Dictionary_internalsContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitClassdef(Python3Parser.ClassdefContext ctx) { return visitChildren(ctx); }
+	@Override public T visitClass_definition(Python3Parser.Class_definitionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitArglist(Python3Parser.ArglistContext ctx) { return visitChildren(ctx); }
+	@Override public T visitArguments_list(Python3Parser.Arguments_listContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -563,39 +507,4 @@ public class Python3BaseVisitor<T> extends AbstractParseTreeVisitor<T> implement
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
 	@Override public T visitComp_if(Python3Parser.Comp_ifContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitYield_expr(Python3Parser.Yield_exprContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitYield_arg(Python3Parser.Yield_argContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitString(Python3Parser.StringContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitNumber(Python3Parser.NumberContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitInteger(Python3Parser.IntegerContext ctx) { return visitChildren(ctx); }
 }

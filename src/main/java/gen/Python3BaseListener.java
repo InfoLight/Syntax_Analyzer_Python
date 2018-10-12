@@ -1,4 +1,4 @@
-package gen;// Generated from C:/Users/InfoLight/IdeaProjects/SyntaxAnalyzerPython/src/main/antlr4\Python3.g4 by ANTLR 4.7
+package gen;// Generated from C:/Users/InfoLight/IdeaProjects/Syntax_Analyzer_Python/src/main/antlr4\Python3.g4 by ANTLR 4.7
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
@@ -51,49 +51,13 @@ public class Python3BaseListener implements Python3Listener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterDecorator(Python3Parser.DecoratorContext ctx) { }
+	@Override public void enterFunction_definition(Python3Parser.Function_definitionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitDecorator(Python3Parser.DecoratorContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterDecorators(Python3Parser.DecoratorsContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitDecorators(Python3Parser.DecoratorsContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterDecorated(Python3Parser.DecoratedContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitDecorated(Python3Parser.DecoratedContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterFuncdef(Python3Parser.FuncdefContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitFuncdef(Python3Parser.FuncdefContext ctx) { }
+	@Override public void exitFunction_definition(Python3Parser.Function_definitionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -111,229 +75,193 @@ public class Python3BaseListener implements Python3Listener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTypedargslist(Python3Parser.TypedargslistContext ctx) { }
+	@Override public void enterParameters_definition(Python3Parser.Parameters_definitionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTypedargslist(Python3Parser.TypedargslistContext ctx) { }
+	@Override public void exitParameters_definition(Python3Parser.Parameters_definitionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTfpdef(Python3Parser.TfpdefContext ctx) { }
+	@Override public void enterStatement(Python3Parser.StatementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTfpdef(Python3Parser.TfpdefContext ctx) { }
+	@Override public void exitStatement(Python3Parser.StatementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVarargslist(Python3Parser.VarargslistContext ctx) { }
+	@Override public void enterSimple_statement(Python3Parser.Simple_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVarargslist(Python3Parser.VarargslistContext ctx) { }
+	@Override public void exitSimple_statement(Python3Parser.Simple_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVfpdef(Python3Parser.VfpdefContext ctx) { }
+	@Override public void enterSmall_statement(Python3Parser.Small_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVfpdef(Python3Parser.VfpdefContext ctx) { }
+	@Override public void exitSmall_statement(Python3Parser.Small_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterStmt(Python3Parser.StmtContext ctx) { }
+	@Override public void enterExpression_statement(Python3Parser.Expression_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitStmt(Python3Parser.StmtContext ctx) { }
+	@Override public void exitExpression_statement(Python3Parser.Expression_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterSimple_stmt(Python3Parser.Simple_stmtContext ctx) { }
+	@Override public void enterAnnassign(Python3Parser.AnnassignContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitSimple_stmt(Python3Parser.Simple_stmtContext ctx) { }
+	@Override public void exitAnnassign(Python3Parser.AnnassignContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterSmall_stmt(Python3Parser.Small_stmtContext ctx) { }
+	@Override public void enterConditionlist_star_expression(Python3Parser.Conditionlist_star_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitSmall_stmt(Python3Parser.Small_stmtContext ctx) { }
+	@Override public void exitConditionlist_star_expression(Python3Parser.Conditionlist_star_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExpr_stmt(Python3Parser.Expr_stmtContext ctx) { }
+	@Override public void enterComposite_assignation(Python3Parser.Composite_assignationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExpr_stmt(Python3Parser.Expr_stmtContext ctx) { }
+	@Override public void exitComposite_assignation(Python3Parser.Composite_assignationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTestlist_star_expr(Python3Parser.Testlist_star_exprContext ctx) { }
+	@Override public void enterDel_statement(Python3Parser.Del_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTestlist_star_expr(Python3Parser.Testlist_star_exprContext ctx) { }
+	@Override public void exitDel_statement(Python3Parser.Del_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAugassign(Python3Parser.AugassignContext ctx) { }
+	@Override public void enterPass_statement(Python3Parser.Pass_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAugassign(Python3Parser.AugassignContext ctx) { }
+	@Override public void exitPass_statement(Python3Parser.Pass_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterDel_stmt(Python3Parser.Del_stmtContext ctx) { }
+	@Override public void enterFlow_statement(Python3Parser.Flow_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitDel_stmt(Python3Parser.Del_stmtContext ctx) { }
+	@Override public void exitFlow_statement(Python3Parser.Flow_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPass_stmt(Python3Parser.Pass_stmtContext ctx) { }
+	@Override public void enterBreak_statement(Python3Parser.Break_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPass_stmt(Python3Parser.Pass_stmtContext ctx) { }
+	@Override public void exitBreak_statement(Python3Parser.Break_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFlow_stmt(Python3Parser.Flow_stmtContext ctx) { }
+	@Override public void enterContinue_statement(Python3Parser.Continue_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFlow_stmt(Python3Parser.Flow_stmtContext ctx) { }
+	@Override public void exitContinue_statement(Python3Parser.Continue_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterBreak_stmt(Python3Parser.Break_stmtContext ctx) { }
+	@Override public void enterReturn_statement(Python3Parser.Return_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitBreak_stmt(Python3Parser.Break_stmtContext ctx) { }
+	@Override public void exitReturn_statement(Python3Parser.Return_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterContinue_stmt(Python3Parser.Continue_stmtContext ctx) { }
+	@Override public void enterRaise_statement(Python3Parser.Raise_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitContinue_stmt(Python3Parser.Continue_stmtContext ctx) { }
+	@Override public void exitRaise_statement(Python3Parser.Raise_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterReturn_stmt(Python3Parser.Return_stmtContext ctx) { }
+	@Override public void enterImport_statement(Python3Parser.Import_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitReturn_stmt(Python3Parser.Return_stmtContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterYield_stmt(Python3Parser.Yield_stmtContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitYield_stmt(Python3Parser.Yield_stmtContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterRaise_stmt(Python3Parser.Raise_stmtContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitRaise_stmt(Python3Parser.Raise_stmtContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterImport_stmt(Python3Parser.Import_stmtContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitImport_stmt(Python3Parser.Import_stmtContext ctx) { }
+	@Override public void exitImport_statement(Python3Parser.Import_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -423,109 +351,109 @@ public class Python3BaseListener implements Python3Listener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterGlobal_stmt(Python3Parser.Global_stmtContext ctx) { }
+	@Override public void enterGlobal_statement(Python3Parser.Global_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitGlobal_stmt(Python3Parser.Global_stmtContext ctx) { }
+	@Override public void exitGlobal_statement(Python3Parser.Global_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterNonlocal_stmt(Python3Parser.Nonlocal_stmtContext ctx) { }
+	@Override public void enterNonlocal_statement(Python3Parser.Nonlocal_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitNonlocal_stmt(Python3Parser.Nonlocal_stmtContext ctx) { }
+	@Override public void exitNonlocal_statement(Python3Parser.Nonlocal_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAssert_stmt(Python3Parser.Assert_stmtContext ctx) { }
+	@Override public void enterAssert_statement(Python3Parser.Assert_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAssert_stmt(Python3Parser.Assert_stmtContext ctx) { }
+	@Override public void exitAssert_statement(Python3Parser.Assert_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterCompound_stmt(Python3Parser.Compound_stmtContext ctx) { }
+	@Override public void enterCompound_statement(Python3Parser.Compound_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitCompound_stmt(Python3Parser.Compound_stmtContext ctx) { }
+	@Override public void exitCompound_statement(Python3Parser.Compound_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIf_stmt(Python3Parser.If_stmtContext ctx) { }
+	@Override public void enterIf_statement(Python3Parser.If_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitIf_stmt(Python3Parser.If_stmtContext ctx) { }
+	@Override public void exitIf_statement(Python3Parser.If_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterWhile_stmt(Python3Parser.While_stmtContext ctx) { }
+	@Override public void enterWhile_statement(Python3Parser.While_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitWhile_stmt(Python3Parser.While_stmtContext ctx) { }
+	@Override public void exitWhile_statement(Python3Parser.While_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFor_stmt(Python3Parser.For_stmtContext ctx) { }
+	@Override public void enterFor_statement(Python3Parser.For_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFor_stmt(Python3Parser.For_stmtContext ctx) { }
+	@Override public void exitFor_statement(Python3Parser.For_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTry_stmt(Python3Parser.Try_stmtContext ctx) { }
+	@Override public void enterTry_statement(Python3Parser.Try_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTry_stmt(Python3Parser.Try_stmtContext ctx) { }
+	@Override public void exitTry_statement(Python3Parser.Try_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterWith_stmt(Python3Parser.With_stmtContext ctx) { }
+	@Override public void enterWith_statement(Python3Parser.With_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitWith_stmt(Python3Parser.With_stmtContext ctx) { }
+	@Override public void exitWith_statement(Python3Parser.With_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -567,85 +495,49 @@ public class Python3BaseListener implements Python3Listener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTest(Python3Parser.TestContext ctx) { }
+	@Override public void enterCondition(Python3Parser.ConditionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTest(Python3Parser.TestContext ctx) { }
+	@Override public void exitCondition(Python3Parser.ConditionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTest_nocond(Python3Parser.Test_nocondContext ctx) { }
+	@Override public void enterOr_condition(Python3Parser.Or_conditionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTest_nocond(Python3Parser.Test_nocondContext ctx) { }
+	@Override public void exitOr_condition(Python3Parser.Or_conditionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterLambdef(Python3Parser.LambdefContext ctx) { }
+	@Override public void enterAnd_condition(Python3Parser.And_conditionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitLambdef(Python3Parser.LambdefContext ctx) { }
+	@Override public void exitAnd_condition(Python3Parser.And_conditionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterLambdef_nocond(Python3Parser.Lambdef_nocondContext ctx) { }
+	@Override public void enterNot_condition(Python3Parser.Not_conditionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitLambdef_nocond(Python3Parser.Lambdef_nocondContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterOr_test(Python3Parser.Or_testContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitOr_test(Python3Parser.Or_testContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterAnd_test(Python3Parser.And_testContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitAnd_test(Python3Parser.And_testContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterNot_test(Python3Parser.Not_testContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitNot_test(Python3Parser.Not_testContext ctx) { }
+	@Override public void exitNot_condition(Python3Parser.Not_conditionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -663,85 +555,85 @@ public class Python3BaseListener implements Python3Listener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterComp_op(Python3Parser.Comp_opContext ctx) { }
+	@Override public void enterComparison_operator(Python3Parser.Comparison_operatorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitComp_op(Python3Parser.Comp_opContext ctx) { }
+	@Override public void exitComparison_operator(Python3Parser.Comparison_operatorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterStar_expr(Python3Parser.Star_exprContext ctx) { }
+	@Override public void enterStar_expression(Python3Parser.Star_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitStar_expr(Python3Parser.Star_exprContext ctx) { }
+	@Override public void exitStar_expression(Python3Parser.Star_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExpr(Python3Parser.ExprContext ctx) { }
+	@Override public void enterExpression(Python3Parser.ExpressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExpr(Python3Parser.ExprContext ctx) { }
+	@Override public void exitExpression(Python3Parser.ExpressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterXor_expr(Python3Parser.Xor_exprContext ctx) { }
+	@Override public void enterXor_expression(Python3Parser.Xor_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitXor_expr(Python3Parser.Xor_exprContext ctx) { }
+	@Override public void exitXor_expression(Python3Parser.Xor_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAnd_expr(Python3Parser.And_exprContext ctx) { }
+	@Override public void enterAnd_expression(Python3Parser.And_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAnd_expr(Python3Parser.And_exprContext ctx) { }
+	@Override public void exitAnd_expression(Python3Parser.And_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterShift_expr(Python3Parser.Shift_exprContext ctx) { }
+	@Override public void enterShift_expression(Python3Parser.Shift_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitShift_expr(Python3Parser.Shift_exprContext ctx) { }
+	@Override public void exitShift_expression(Python3Parser.Shift_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterArith_expr(Python3Parser.Arith_exprContext ctx) { }
+	@Override public void enterArith_expression(Python3Parser.Arith_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitArith_expr(Python3Parser.Arith_exprContext ctx) { }
+	@Override public void exitArith_expression(Python3Parser.Arith_expressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -783,6 +675,18 @@ public class Python3BaseListener implements Python3Listener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterAtom_expression(Python3Parser.Atom_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitAtom_expression(Python3Parser.Atom_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterAtom(Python3Parser.AtomContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -795,13 +699,13 @@ public class Python3BaseListener implements Python3Listener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTestlist_comp(Python3Parser.Testlist_compContext ctx) { }
+	@Override public void enterConditionlist_comp(Python3Parser.Conditionlist_compContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTestlist_comp(Python3Parser.Testlist_compContext ctx) { }
+	@Override public void exitConditionlist_comp(Python3Parser.Conditionlist_compContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -855,61 +759,61 @@ public class Python3BaseListener implements Python3Listener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExprlist(Python3Parser.ExprlistContext ctx) { }
+	@Override public void enterExpressionlist(Python3Parser.ExpressionlistContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExprlist(Python3Parser.ExprlistContext ctx) { }
+	@Override public void exitExpressionlist(Python3Parser.ExpressionlistContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTestlist(Python3Parser.TestlistContext ctx) { }
+	@Override public void enterConditionlist(Python3Parser.ConditionlistContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTestlist(Python3Parser.TestlistContext ctx) { }
+	@Override public void exitConditionlist(Python3Parser.ConditionlistContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterDictorsetmaker(Python3Parser.DictorsetmakerContext ctx) { }
+	@Override public void enterDictionary_internals(Python3Parser.Dictionary_internalsContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitDictorsetmaker(Python3Parser.DictorsetmakerContext ctx) { }
+	@Override public void exitDictionary_internals(Python3Parser.Dictionary_internalsContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterClassdef(Python3Parser.ClassdefContext ctx) { }
+	@Override public void enterClass_definition(Python3Parser.Class_definitionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitClassdef(Python3Parser.ClassdefContext ctx) { }
+	@Override public void exitClass_definition(Python3Parser.Class_definitionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterArglist(Python3Parser.ArglistContext ctx) { }
+	@Override public void enterArguments_list(Python3Parser.Arguments_listContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitArglist(Python3Parser.ArglistContext ctx) { }
+	@Override public void exitArguments_list(Python3Parser.Arguments_listContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -958,66 +862,6 @@ public class Python3BaseListener implements Python3Listener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitComp_if(Python3Parser.Comp_ifContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterYield_expr(Python3Parser.Yield_exprContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitYield_expr(Python3Parser.Yield_exprContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterYield_arg(Python3Parser.Yield_argContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitYield_arg(Python3Parser.Yield_argContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterString(Python3Parser.StringContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitString(Python3Parser.StringContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterNumber(Python3Parser.NumberContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitNumber(Python3Parser.NumberContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterInteger(Python3Parser.IntegerContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitInteger(Python3Parser.IntegerContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

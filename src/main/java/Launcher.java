@@ -1,11 +1,17 @@
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class Launcher {
 
     public static void main(String[] args) throws IOException {
-        ParserFacade parserFacade = new ParserFacade();
-        AstPrinter astPrinter = new AstPrinter();
-        astPrinter.print(parserFacade.parse(new File("code.py")));
+        PrintWriter out = new PrintWriter(new FileWriter("out.txt"));
+
+        Parser parser = new Parser();
+        TreePrinter treePrinter = new TreePrinter(out);
+        treePrinter.print(parser.parse(new File("in.txt")));
+
+        out.close();
     }
 }
