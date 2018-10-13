@@ -9,6 +9,9 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 
+/**
+ * This class is parser of input file. It has method parse, which returns parse tree for further actions.
+ */
 public class Parser {
 
     private static String readFile(File file, Charset encoding) throws IOException {

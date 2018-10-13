@@ -11,6 +11,9 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * This class is output writer of the given parse tree into output file in json format.
+ */
 public class TreePrinter {
 
     private PrintWriter outWriter;
@@ -34,7 +37,7 @@ public class TreePrinter {
         return prettyPrint ? PRETTY_PRINT_GSON.toJson(toMap(tree)) : GSON.toJson(toMap(tree));
     }
 
-    public static Map<String, Object> toMap(ParseTree tree) {
+    private static Map<String, Object> toMap(ParseTree tree) {
         Map<String, Object> map = new LinkedHashMap<>();
         traverse(tree, map);
         return map;

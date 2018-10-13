@@ -3,6 +3,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/**
+ * This class is launcher for syntax analyzer application.
+ */
 public class Launcher {
 
     public static void main(String[] args) throws IOException {
