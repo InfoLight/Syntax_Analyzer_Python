@@ -17,6 +17,7 @@ import java.util.Map;
 public class TreePrinter {
 
     private PrintWriter outWriter;
+    private Map<String, Object> map = new LinkedHashMap<>();
 
     public TreePrinter(PrintWriter outWriter) throws IOException {
         this.outWriter = outWriter;
@@ -29,17 +30,22 @@ public class TreePrinter {
     private static final Gson PRETTY_PRINT_GSON = new GsonBuilder().setPrettyPrinting().create();
     private static final Gson GSON = new Gson();
 
-    public static String toJson(ParseTree tree) {
+    public String toJson(ParseTree tree) {
         return toJson(tree, true);
     }
 
-    public static String toJson(ParseTree tree, boolean prettyPrint) {
+    public String toJson(ParseTree tree, boolean prettyPrint) {
         return prettyPrint ? PRETTY_PRINT_GSON.toJson(toMap(tree)) : GSON.toJson(toMap(tree));
     }
 
-    private static Map<String, Object> toMap(ParseTree tree) {
+    private Map<String, Object> toMap(ParseTree tree) {
         Map<String, Object> map = new LinkedHashMap<>();
+        this.map = map;
         traverse(tree, map);
+        return map;
+    }
+
+    public Map getMap(){
         return map;
     }
 
