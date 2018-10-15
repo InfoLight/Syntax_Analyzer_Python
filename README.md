@@ -1,7 +1,24 @@
 # Syntax analyzer for Python programming language
 ## Authors: Dinar Salakhutdinov, Anastasia Kirdysheva
 
-#### Our grammar. This grammar is based on the Python full grammar, but it was fully rewritten in order to remove complex items and to be easy for reader to understand tokens. So, now analyzer supports most common language structures, except decorators, items such as '->', etc.
+##Compilation and Running
+To compile and run our project you should use IntelliJ Idea by Netbrains. To make code work correctly, you should create 
+project that is able to use with Maven because we used Maven libraries. All dependencies 
+for these libraries are stored in the pom.xml file.
+
+##Testing
+We have written several unit tests for our code. These tests were written by JUnit 4 library that is supported by IntelliJ 
+Idea, so you should not to switch between tools to run our tests. 
+
+##Libraries
+All libraries are contained in the POM.xml file but we can describe it here to inform about these libraries.
+We used JUnit4 for testing.
+For lexer itself we used antlr4.
+And for easily work with JSON onject we used GSON by google.
+
+##Grammar 
+#####This grammar is based on the Python full grammar, but it was fully rewritten in order to remove complex items and to be easy for reader to understand tokens. So, now analyzer supports most common language structures, except decorators, items such as '->', etc. 
+######You can fin description of the grammar below
 
 single_input: NEWLINE | simple_statement | compound_statement NEWLINE;
 file_input: (NEWLINE | statement)* EOF;

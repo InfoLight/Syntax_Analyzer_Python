@@ -2,95 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c326148-8c35-4300-8c70-bd25f1891d06" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tests/TreePrinterTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testGSON.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testin.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testout.txt" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/in.txt" afterPath="$PROJECT_DIR$/in.txt" />
-      <change beforePath="$PROJECT_DIR$/out.txt" afterPath="$PROJECT_DIR$/out.txt" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Launcher.java" afterPath="$PROJECT_DIR$/src/main/java/Launcher.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TreePrinter.java" afterPath="$PROJECT_DIR$/src/main/java/TreePrinter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gen/Python3Parser.java" afterPath="$PROJECT_DIR$/src/main/java/gen/Python3Parser.java" />
-      <change beforePath="$PROJECT_DIR$/syntaxAnalyzerPython.iml" afterPath="$PROJECT_DIR$/syntaxAnalyzerPython.iml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Launcher.class" afterPath="$PROJECT_DIR$/target/classes/Launcher.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TreePrinter.class" afterPath="$PROJECT_DIR$/target/classes/TreePrinter.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Lexer.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Lexer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$And_conditionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$And_conditionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$And_expressionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$And_expressionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$AnnassignContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$AnnassignContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ArgumentContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ArgumentContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Arguments_listContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Arguments_listContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Arith_expressionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Arith_expressionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Assert_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Assert_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$AtomContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$AtomContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Atom_expressionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Atom_expressionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Break_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Break_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Class_definitionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Class_definitionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Comp_forContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Comp_forContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Comp_ifContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Comp_ifContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Comp_iterContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Comp_iterContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ComparisonContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ComparisonContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Comparison_operatorContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Comparison_operatorContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Composite_assignationContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Composite_assignationContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Compound_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Compound_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ConditionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ConditionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ConditionlistContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ConditionlistContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Conditionlist_compContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Conditionlist_compContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Conditionlist_star_expressionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Conditionlist_star_expressionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Continue_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Continue_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Del_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Del_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Dictionary_internalsContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Dictionary_internalsContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Dotted_as_nameContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Dotted_as_nameContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Dotted_as_namesContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Dotted_as_namesContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Dotted_nameContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Dotted_nameContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Eval_inputContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Eval_inputContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Except_clauseContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Except_clauseContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ExpressionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ExpressionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Expression_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Expression_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ExpressionlistContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ExpressionlistContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$FactorContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$FactorContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$File_inputContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$File_inputContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Flow_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Flow_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$For_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$For_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Function_definitionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Function_definitionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Global_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Global_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$If_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$If_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Import_as_nameContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Import_as_nameContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Import_as_namesContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Import_as_namesContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Import_fromContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Import_fromContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Import_nameContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Import_nameContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Import_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Import_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Nonlocal_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Nonlocal_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Not_conditionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Not_conditionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Or_conditionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Or_conditionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ParametersContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$ParametersContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Parameters_definitionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Parameters_definitionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Pass_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Pass_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$PowerContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$PowerContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Raise_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Raise_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Return_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Return_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Shift_expressionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Shift_expressionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Simple_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Simple_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Single_inputContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Single_inputContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$SliceopContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$SliceopContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Small_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Small_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Star_expressionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Star_expressionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$StatementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$StatementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$SubscriptContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$SubscriptContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$SubscriptlistContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$SubscriptlistContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$SuiteContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$SuiteContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$TermContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$TermContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$TrailerContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$TrailerContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Try_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Try_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$While_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$While_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$With_itemContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$With_itemContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$With_statementContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$With_statementContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Xor_expressionContext.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser$Xor_expressionContext.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gen/Python3Parser.class" afterPath="$PROJECT_DIR$/target/classes/gen/Python3Parser.class" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -190,7 +103,7 @@
       <file leaf-file-name="TreePrinter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TreePrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="135">
               <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -201,14 +114,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreePrinterTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreePrinterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/TreePrinterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="648">
+              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="432">
+                <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -236,7 +172,7 @@
       <file leaf-file-name="testGSON.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testGSON.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
+            <state relative-caret-position="4941">
               <caret line="183" column="1" lean-forward="false" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
               <folding />
             </state>
@@ -255,20 +191,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="in.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/in.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Launcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="270">
               <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -280,8 +206,8 @@
       <file leaf-file-name="out.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="178" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+            <state relative-caret-position="4806">
+              <caret line="178" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -326,7 +252,6 @@
         <option value="$PROJECT_DIR$/out.txt" />
         <option value="$PROJECT_DIR$/in.py" />
         <option value="$PROJECT_DIR$/src/main/java/Parser.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/gen/Python3Parser.java" />
         <option value="$PROJECT_DIR$/in.txt" />
         <option value="$PROJECT_DIR$/src/main/java/TreePrinter.java" />
@@ -336,6 +261,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Launcher.java" />
         <option value="$PROJECT_DIR$/src/tests/TreePrinterTest.java" />
         <option value="$PROJECT_DIR$/testGSON.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -387,10 +313,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -413,6 +337,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,8 +581,17 @@
       <updated>1539004477109</updated>
       <workItem from="1539172021849" duration="380000" />
       <workItem from="1539172486159" duration="4679000" />
-      <workItem from="1539528809068" duration="8736000" />
+      <workItem from="1539528809068" duration="10107000" />
+      <workItem from="1539608903377" duration="697000" />
     </task>
+    <task id="LOCAL-00001" summary="test added">
+      <created>1539537926202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539537926202</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -692,7 +627,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13795000" />
+    <option name="totallyTimeSpent" value="15863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -700,20 +635,21 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Json Parser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Json Parser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -721,12 +657,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -736,6 +671,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test added" />
+    <option name="LAST_COMMIT_MESSAGE" value="test added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,6 +718,88 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/TreePrinter.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testout.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testin.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testGSON.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4941">
+          <caret line="183" column="1" lean-forward="false" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Assignment1_version2/test/ExpressionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4806">
+          <caret line="178" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/TreePrinterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TreePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding>
@@ -793,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4833">
           <caret line="179" column="48" lean-forward="false" selection-start-line="179" selection-start-column="48" selection-end-line="179" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,9 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="12" column="105" lean-forward="false" selection-start-line="12" selection-start-column="105" selection-end-line="12" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,23 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4833">
           <caret line="179" column="48" lean-forward="false" selection-start-line="179" selection-start-column="48" selection-end-line="179" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1911">
-            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -883,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-972">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1534,14 +1532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/in.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1550,35 +1540,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/testin.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/testGSON.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="180" column="31" lean-forward="false" selection-start-line="180" selection-start-column="31" selection-end-line="180" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/testin.txt" />
+    <entry file="file://$PROJECT_DIR$/src/tests/testGSON.json" />
     <entry file="file://$PROJECT_DIR$/../../Assignment1_version2/test/TermTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="270">
           <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1590,7 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1614,7 +1586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TreePrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="135">
           <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1626,15 +1598,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="178" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        <state relative-caret-position="4806">
+          <caret line="178" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testGSON.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
+        <state relative-caret-position="4941">
           <caret line="183" column="1" lean-forward="false" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
           <folding />
         </state>
@@ -1650,11 +1622,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/TreePrinterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="648">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="432">
+            <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
